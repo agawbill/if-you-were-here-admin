@@ -1,0 +1,12 @@
+.UserButtons {
+  display: flexbox;
+}
+
+@media (min-width: 600px) {
+  .UserButtons {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+}

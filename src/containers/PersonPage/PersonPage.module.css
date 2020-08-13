@@ -1,0 +1,22 @@
+.PersonPage {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.PersonButtons {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.validations {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+}

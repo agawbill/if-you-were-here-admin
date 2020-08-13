@@ -1,0 +1,17 @@
+.SortOption {
+  cursor: pointer;
+  color: gray;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.SortOptionSelected {
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.SortOption:hover {
+  color: darkgrey;
+}

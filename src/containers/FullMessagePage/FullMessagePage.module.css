@@ -1,0 +1,11 @@
+.validations {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+}

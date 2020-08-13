@@ -1,0 +1,58 @@
+.ListContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.ButtonsContainer {
+  order: 1;
+  display: flex;
+  flex-flow: row;
+}
+
+.PositionButtons {
+  width: 5px;
+  margin-left: 10px;
+}
+
+.Name {
+  order: 2;
+  flex-grow: 6;
+}
+
+.PersonLink {
+  font-weight: bold;
+  cursor: pointer;
+  color: gray !important    ;
+}
+
+.PersonLink:hover {
+  cursor: pointer;
+  color: silver !important;
+}
+
+.Icons {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5px;
+}
+
+.Icon {
+  margin-right: 5px !important;
+}
+
+@media (min-width: 600px) {
+  .ListContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+  }
+  .Name {
+    order: 1;
+  }
+  .ButtonsContainer {
+    order: 2;
+  }
+}

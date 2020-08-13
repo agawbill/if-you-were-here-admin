@@ -1,0 +1,66 @@
+.Message {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.Message .MessageDate {
+  font-size: 15px;
+  color: gray;
+  font-style: italic;
+  transition: all 0.5s ease-in-out;
+}
+
+.Message:hover .MessageDate {
+  cursor: pointer;
+  color: blue;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Message .MessageDate:hover {
+  cursor: pointer;
+  color: blue;
+}
+.MessageAttribute {
+  color: blue;
+}
+
+.Message:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.MessageMessage::first-letter {
+  text-transform: uppercase;
+}
+
+.Flag {
+  margin-left: 10px;
+  padding-top: 10px;
+  color: red;
+}
+
+.Icons {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 5px;
+}
+.Icon {
+  margin-right: 5px !important;
+}
+
+@media (min-width: 600px) {
+  .Icons {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .Icon {
+    margin-right: 0px !important;
+    margin-left: 5px !important;
+  }
+}

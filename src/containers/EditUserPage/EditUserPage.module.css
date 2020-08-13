@@ -1,0 +1,20 @@
+.validations {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Option {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.UserHeader {
+  text-align: left;
+}

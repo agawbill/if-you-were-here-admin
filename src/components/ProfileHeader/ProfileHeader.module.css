@@ -1,0 +1,31 @@
+.link {
+  cursor: pointer;
+  color: blue !important    ;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: darkblue !important;
+}
+
+.Off {
+  font-weight: bold;
+  color: red;
+}
+
+.On {
+  font-weight: bold;
+  color: green;
+}
+
+.validations {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+}

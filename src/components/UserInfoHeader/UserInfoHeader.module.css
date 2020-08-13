@@ -1,0 +1,24 @@
+.link {
+  cursor: pointer;
+  color: blue !important    ;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: darkblue !important;
+}
+
+.User {
+  color: blue;
+}
+
+.Option {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.Name {
+  text-align: left;
+  margin-bottom: 5px;
+}

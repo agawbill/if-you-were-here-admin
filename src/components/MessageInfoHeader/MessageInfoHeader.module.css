@@ -1,0 +1,13 @@
+.link {
+  cursor: pointer;
+  color: blue !important    ;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: darkblue !important;
+}
+
+.User {
+  color: blue;
+}

@@ -1,0 +1,29 @@
+.Resources {
+  display: flexbox;
+}
+
+.ResourceButtons {
+  margin-bottom: 5px;
+}
+.Resource {
+  order: 1;
+}
+
+.ResourceLink {
+  font-weight: bold;
+  cursor: pointer;
+  color: gray !important    ;
+}
+
+.ResourceLink:hover {
+  cursor: pointer;
+  color: silver !important;
+}
+
+@media (min-width: 600px) {
+  .ResourceButtons {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+}
